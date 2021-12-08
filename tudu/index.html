@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">ToDo</h2>
+      <ul>
+        <li><a href="">home</a></li>
+      </ul>
+      <div class="menu">
+        <div class="headercontainer" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div class="btnheadGroup animate__animated animate__backInLeft">
+        <button class="btn" id="myBtn">SinUp</button>
+        <button id="darklight" class="btn">Dark</button>
+      </div>
+    </header>
+    <div class="w container">
+      <h1>wellcome</h1>
+    </div>
+
+    <form action="" class="container tudu_add">
+      <input
+        type="text"
+        class="write"
+        placeholder="write"
+        name="write"
+        id="write"
+      />
+      <input type="button" id="add" class="add" value="Add" />
+    </form>
+    <div class="list container animate__animated animate__backInUp"></div>
+
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <br />
+        <div class="form">
+          <label for="name">Name</label>
+          <input type="text" name="" id="name" />
+        </div>
+        <div class="form">
+          <label for="mobile">Mobile no.</label>
+          <input type="text" name="" id="mobile" />
+        </div>
+        <div class="form">
+          <label for="email">Email</label>
+          <input type="text" name="" id="email" />
+        </div>
+        <div class="form">
+          <label for="password">Password</label>
+          <input type="text" name="" id="password" />
+        </div>
+        <div class="btnsbtn">
+          <button class="btns" id="subbtn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
